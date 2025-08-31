@@ -271,8 +271,8 @@ function downloadFromGitHub() {
 }
 
 function downloadFromDrive() {
-    // Google Drive linkine yönlendir
-    window.open('https://drive.google.com/file/d/YOUR_FILE_ID/view', '_blank');
+    // Google Drive direkt indirme linki
+    window.open('https://drive.google.com/uc?export=download&id=1fEctjsM7svzqzY1ZDbJydn82KcISwmos', '_blank');
 }
 
 // Intersection Observer for animations
