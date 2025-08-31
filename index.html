@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓 Akıllı Ders Dağıtım Programı</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Akıllı Ders Dağıtım</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#features">Özellikler</a></li>
+                <li><a href="#guide">Kullanım Klavuzu</a></li>
+                <li><a href="#download">İndir</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Akıllı Ders Dağıtım</span>
+                    <br>Programı
+                </h1>
+                <p class="hero-subtitle">
+                    Okullarda ders programlarını otomatik olarak oluşturan, 
+                    öğretmen uygunlukları ve kısıtlamaları dikkate alan akıllı sistem
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Ücretsiz İndir
+                    </a>
+                    <a href="#guide" class="btn btn-secondary">
+                        <i class="fas fa-book"></i>
+                        Kullanım Klavuzu
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Ücretsiz</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">80MB</span>
+                        <span class="stat-label">Tek Dosya</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Windows</span>
+                        <span class="stat-label">Uyumlu</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="app-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="mockup-title">🎓 Akıllı Ders Dağıtım Programı</span>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="mockup-tabs">
+                            <span class="tab active">⚙️ Ayarlar</span>
+                            <span class="tab">📚 Tanımlamalar</span>
+                            <span class="tab">📝 Ders Atamaları</span>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="schedule-grid">
+                                <div class="schedule-header">Pazartesi</div>
+                                <div class="schedule-header">Salı</div>
+                                <div class="schedule-header">Çarşamba</div>
+                                <div class="schedule-cell math">Matematik</div>
+                                <div class="schedule-cell turkish">Türkçe</div>
+                                <div class="schedule-cell science">Fen Bilgisi</div>
+                                <div class="schedule-cell english">İngilizce</div>
+                                <div class="schedule-cell social">Sosyal Bilgiler</div>
+                                <div class="schedule-cell pe">Beden Eğitimi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Neden Bu Programı Seçmelisiniz?</h2>
+                <p>Modern teknoloji ile geliştirilen, kullanıcı dostu arayüze sahip ders dağıtım çözümü</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Akıllı Algoritma</h3>
+                    <p>Google OR-Tools ile geliştirilmiş optimizasyon algoritması, en uygun ders dağılımını otomatik bulur</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Zaman Tasarrufu</h3>
+                    <p>Manuel ders programı hazırlama sürecini saatlerden dakikalara indirger</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Öğretmen Uygunlukları</h3>
+                    <p>Her öğretmenin uygun olduğu gün ve saatleri dikkate alarak çakışmasız program oluşturur</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>PDF Çıktı</h3>
+                    <p>Profesyonel görünümlü PDF formatında sınıf ve öğretmen programları oluşturur</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Esnek Ayarlar</h3>
+                    <p>Okul saatleri, ders blokları ve kısıtlamaları kolayca özelleştirilebilir</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Güvenli ve Ücretsiz</h3>
+                    <p>Tamamen ücretsiz, reklamsız ve verileriniz sadece bilgisayarınızda kalır</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guide Section -->
+    <section id="guide" class="guide">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kullanım Klavuzu</h2>
+                <p>Programı etkili şekilde kullanmak için adım adım rehber</p>
+            </div>
+            <div class="guide-content">
+                <div class="guide-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>⚙️ Ayarlar</h3>
+                            <p>Okul bilgilerini ve günlük ders saatlerini ayarlayın</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>📚 Tanımlamalar</h3>
+                            <p>Dersleri, öğretmenleri ve sınıfları sisteme ekleyin</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>📝 Ders Atamaları</h3>
+                            <p>Öğretmen-ders ilişkilerini ve haftalık saatleri belirleyin</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>⏰ Kısıtlamalar</h3>
+                            <p>Öğretmen uygunluklarını gün ve saat bazında ayarlayın</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>🚀 Çözüm Üret</h3>
+                            <p>"Dağıtımı Başlat" ile otomatik program oluşturun</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>📄 PDF Çıktı</h3>
+                            <p>Oluşturulan programları PDF olarak kaydedin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide-download">
+                    <div class="guide-card">
+                        <i class="fas fa-book-open"></i>
+                        <h3>Detaylı Kullanım Klavuzu</h3>
+                        <p>Programın tüm özelliklerini öğrenmek için kapsamlı klavuzu indirin</p>
+                        <a href="KULLANIM_KLAVUZU.md" class="btn btn-outline" download>
+                            <i class="fas fa-download"></i>
+                            Klavuzu İndir (MD)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-info">
+                    <h2>Hemen İndirin ve Kullanmaya Başlayın</h2>
+                    <p>Kurulum dosyası tüm gerekli bileşenleri içerir ve otomatik kurulum yapar</p>
+                    <div class="download-features">
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Otomatik .NET 8.0 kurulumu</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Visual C++ Redistributable dahil</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Tek dosya, sıkıştırılmış (80MB)</span>
+                        </div>
+                        <div class="download-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Windows 10/11 uyumlu</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-card">
+                    <div class="download-header">
+                        <i class="fas fa-download"></i>
+                        <h3>Akıllı Ders Dağıtım Programı</h3>
+                        <span class="version">v4.0</span>
+                    </div>
+                    <div class="download-body">
+                        <div class="file-info">
+                            <span class="file-name">LessonScheduler_Setup.exe</span>
+                            <span class="file-size">~85MB</span>
+                        </div>
+                        <a href="#" class="btn btn-download" id="downloadBtn">
+                            <i class="fas fa-download"></i>
+                            Ücretsiz İndir
+                        </a>
+                        <p class="download-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Virüs taramasından geçmiş, güvenli dosya
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Akıllı Ders Dağıtım</span>
+                    </div>
+                    <p>Okullarda ders programlarını otomatik oluşturan akıllı çözüm</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Bağlantılar</h4>
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#features">Özellikler</a></li>
+                        <li><a href="#guide">Kullanım Klavuzu</a></li>
+                        <li><a href="#download">İndir</a></li>
+                    </ul>
+                </div>
+                <div class="footer-tech">
+                    <h4>Teknoloji</h4>
+                    <ul>
+                        <li>.NET 8.0</li>
+                        <li>WPF</li>
+                        <li>Google OR-Tools</li>
+                        <li>iTextSharp</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mahir Cihangir Saraç. Tüm hakları saklıdır.</p>
+                <p>Bu program tamamen ücretsizdir ve açık kaynak kodludur.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
