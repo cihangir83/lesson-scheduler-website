@@ -267,7 +267,7 @@ function showDownloadModal() {
 
 function downloadFromGitHub() {
     // GitHub releases sayfasına yönlendir
-    window.open('https://github.com/YOUR_USERNAME/lesson-scheduler/releases', '_blank');
+    window.open('https://github.com/cihangir83/lesson-scheduler/releases', '_blank');
 }
 
 function downloadFromDrive() {
