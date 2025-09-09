@@ -272,7 +272,7 @@ function downloadFromGitHub() {
 
 function downloadFromDrive() {
     // Google Drive direkt indirme linki
-    window.open('https://drive.google.com/uc?export=download&id=1fEctjsM7svzqzY1ZDbJydn82KcISwmos', '_blank');
+    window.open('https://drive.google.com/file/d/19vtrEdPITKCmYrQd_pyT5vfzuxv3aoWY/view?usp=sharing', '_blank');
 }
 
 // Intersection Observer for animations
